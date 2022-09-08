@@ -1,0 +1,222 @@
+
+div{
+    width: 200px;
+    height: 200px;
+    /*display: inline-block; /*inline ignores de width and height*/
+    text-align: center;
+}
+
+/*CSS Box Model ( 1pt ) - Cascading */
+.top-container{
+    background-color: lightblue;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    padding: 20px;
+}
+
+.middle-container{
+    background-color: lightpink;
+    border: 20px solid black;
+    margin-left: 260px;
+    /*display: none; removes element from de script*/
+    /*visibility: hidden; hides the element but it keeps the space it takes up*/
+    /*position: absolute: in relation to the whole screen
+    relative: in reference to where it was supposed to be
+    fixed: stays in that position even if you move the screen
+    sticky: starts in its position, when you move the screen it stays fixed
+    top: 100px;
+    left: 150px;*/
+}
+
+.bottom-container{
+    background-color: lightgreen;
+    border: 10px solid black;
+    margin-left: 500px;
+}
+
+
+/*CSS Display and Layout ( 3pts )*/
+.cuadro1{
+    width: 50px;
+    height: 200px;
+    border: 10px solid black;   
+}
+.cuadro2{
+    width: 50px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+}
+.cuadro3{
+    width: 50px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+}
+.cuadro4{
+    width: 150px;
+    height: 200px;
+    border: 10px solid black;
+    margin-left: 60px;  
+    margin-top: -340px; 
+}
+.cuadro5{
+    width: 150px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    background-color: #2C3CA3;
+    margin-left: 60px; 
+}
+.cuadro6{
+    width: 150px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 60px; 
+}
+.cuadro7{
+    width: 35px;
+    height: 35px;
+    border: 10px solid black; 
+    margin-top: -340px;
+    margin-left: 220px;
+}
+.cuadro8{
+    width: 35px;
+    height: 155px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 220px;
+}
+.cuadro9{
+    width: 35px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 220px;
+}
+.cuadro10{
+    width: 35px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 220px;
+}
+.cuadro11{
+    width: 150px;
+    height: 35px;
+    border: 10px solid black;
+    margin-left: 265px;  
+    margin-top: -340px; 
+}
+.cuadro12{
+    width: 150px;
+    height: 155px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 265px;
+    background-color: #E43B41;
+}
+.cuadro13{
+    width: 150px;
+    height: 110px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 265px;
+}
+.cuadro14{
+    width: 150px;
+    height: 35px;
+    border: 10px solid black;
+    margin-left: 425px;  
+    margin-top: -340px;
+    background-color: #FAD54A; 
+}
+.cuadro15{
+    width: 150px;
+    height: 155px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 425px;
+}
+.cuadro16{
+    width: 150px;
+    height: 110px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 425px;
+}
+
+/*CSS Position Relative*/
+.container1{
+    background-color: lightskyblue; 
+    position: relative;
+}
+.container2{
+    background-color: #FAD54A; 
+    position: relative;
+}
+.container3{
+    background-color: #E43B41; 
+    position: relative;
+    
+}
+.container1R{
+    background-color: #FAD54A; 
+    position: relative; 
+    margin-top: -600px;
+    margin-left: 250px;
+}
+.container2R{
+    background-color: #E43B41;
+    position: relative;
+    margin-left: 450px;
+    margin-top:-200px;
+}
+.container3R{
+    background-color: lightskyblue; 
+    position: relative;
+    margin-left: 650px;
+    margin-top:-200px;
+    margin-bottom: 410px;
+}
+
+
+/*CSS Position Absolute*/
+.container4{
+    background-color: lightskyblue; 
+    position: absolute ;
+}
+.container5{
+    background-color: #FAD54A; 
+    position: absolute;
+    margin-top: 200px;
+}
+.container6{
+    background-color: #E43B41; 
+    position: absolute;
+    margin-top: 400px;
+}
+
+.container1A{
+    background-color: #E43B41;
+    position: absolute; 
+    margin-left: 250px;
+}
+.container2A{
+    background-color: #FAD54A; 
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 200px;
+    
+}
+.container3A{
+    background-color: lightskyblue; 
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 400px;
+    
+}
+
