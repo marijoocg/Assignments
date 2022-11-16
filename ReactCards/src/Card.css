@@ -1,0 +1,50 @@
+
+.container{
+  border-radius: 25px;
+  width: 30%;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #926bcb;
+  margin: 50px;
+  height: 200px;
+  text-align: left;
+}
+.name{
+  border-radius: 25px 25px 0px 0px;
+  height: 100px;
+  width: 100%;
+  background-color: #b68ff1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.img {
+  border-radius: 50%;
+  border: 7px;
+  border-style: solid;
+  border-color: white;
+  width: 120px;
+  height: 120px;
+  margin-left:10%;
+  margin-top: 5%;
+}
+h1{
+  margin-left: 10%;
+  margin-top: 7%;
+}
+.info{
+  margin-top: 120px;
+  margin-right: 10%;
+  text-align: right;
+}
+
+a:link {
+  color: rgb(43,42,42);
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white;
+}
